@@ -1,0 +1,43 @@
+/* Style for the task list container */
+.tasks {
+    max-height: 300px; /* Set a maximum height for the task list */
+    overflow-y: auto; /* Add a scrollbar when the list overflows */
+}
+
+/* Style for individual tasks */
+.task {
+    background-color: #f8f9fa; /* Task background color */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.task p {
+    margin: 0;
+}
+/* Style for task buttons (Add, Clear, and Search) */
+.btn {
+    margin-top: 10px;
+}
+
+/* Style for the "Completed" task */
+.completed {
+    background-color: #d4edda; /* Bootstrap success color for completed tasks */
+}
+
+/* Style for the delete (X) button */
+.task a {
+    background-color: #dc3545; /* Button background color */
+    padding: 5px 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Style for the task counter */
+.task-counter {
+    color: #007bff; /* Counter text color */
+    font-weight: bold;
+}
+
